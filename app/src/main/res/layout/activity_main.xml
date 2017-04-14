@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundMain"
+    android:paddingLeft="@dimen/padding_left_right_main_relative_layout"
+    android:paddingRight="@dimen/padding_left_right_main_relative_layout"
+    tools:context="com.example.quanganh.loginfour.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_main_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top_main_image_view"
+        android:src="@drawable/icon_app" />
+
+    <EditText
+        android:id="@+id/edit_text_main_username"
+        style="@style/EditTextTheme"
+        android:layout_above="@+id/edit_text_main_password"
+        android:drawableLeft="@drawable/icon_username"
+        android:hint="@string/main_hint_edit_text_username" />
+
+    <EditText
+        android:id="@+id/edit_text_main_password"
+        style="@style/EditTextTheme"
+        android:layout_above="@+id/button_main_login"
+        android:layout_marginBottom="@dimen/all_margin_bottom_main"
+        android:drawableLeft="@drawable/icon_lock"
+        android:hint="@string/main_hint_edit_text_password" />
+
+    <Button
+        android:id="@+id/button_main_login"
+        style="@style/ViewMatch"
+        android:layout_above="@+id/text_main_olvido"
+        android:layout_marginBottom="@dimen/all_margin_bottom_main"
+        android:background="@color/colorBacgroundButton"
+        android:text="@string/main_text_button"
+        android:textAllCaps="false"
+        android:textColor="@color/colorTextButton" />
+
+    <TextView
+        android:id="@+id/text_main_olvido"
+        style="@style/ViewMatch"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/all_margin_bottom_main"
+        android:gravity="center"
+        android:text="@string/main_text_olvido"
+        android:textColor="@color/colorText"
+        android:textStyle="normal" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <!--Activity main-->
+    <string name="app_name">LoginFour</string>
+    <string name="main_text_button">Entrar</string>
+    <string name="main_text_olvido">Olvido su contrasena?</string>
+    <string name="main_hint_edit_text_password">Password</string>
+    <string name="main_hint_edit_text_username">Usuario</string>
+
+</resources>

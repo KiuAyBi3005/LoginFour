@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_left_right_main_relative_layout">64dp</dimen>
+    <dimen name="margin_top_main_image_view">64dp</dimen>
+    <dimen name="padding_bottom_top_drawble_main_edit_text">8dp</dimen>
+    <dimen name="all_margin_bottom_main">32dp</dimen>
+
+</resources>
